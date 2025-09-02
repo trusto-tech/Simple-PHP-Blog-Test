@@ -1,7 +1,7 @@
 <?php
 require_once 'connect.php';
 require_once 'security.php';
-
+//add some commnets here
 if (isset($_GET['id'])) {
     $id = mysqli_real_escape_string($dbcon, (int) $_GET['id']);
     $sql = "DELETE FROM posts WHERE id = '$id'";

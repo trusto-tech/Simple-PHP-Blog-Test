@@ -2,7 +2,7 @@
 require_once 'connect.php';
 require_once 'header.php';
 require_once 'security.php';
-
+//do some update here and here
 $id = (INT)$_GET['id'];
 if ($id < 1) {
     header("location: index.php");
